@@ -1,4 +1,6 @@
-# Vivliostyle Relics
+---
+title: Vivliostyle Relics
+---
 
 ## Canary release
 
