@@ -1,6 +1,6 @@
----
-title: Vivliostyle Relics
----
+# Vivliostyle Releases
+
+for latest release, go to [vivliostyle.org](https://vivliostyle.org/download).
 
 ## Canary release
 
