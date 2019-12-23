@@ -4,7 +4,7 @@ for latest release, go to [vivliostyle.org](https://vivliostyle.org/download).
 
 ## Tagged releases
 
-{% for release in site.data.releases %}
+{% for release in site.data.releases reversed %}
 ### {{ release.version }}
 
 - **viewer:** <https://vivliostyle.github.io/viewer/{{ release.tag }}>
