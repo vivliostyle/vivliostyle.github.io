@@ -1,8 +1,15 @@
 # Vivliostyle Releases
 
-for latest release, go to [vivliostyle.org](https://vivliostyle.org/download/).
+## Stable release
 
-## Tagged releases
+- **viewer:** <https://vivliostyle.org/viewer/>
+- **archive:** <https://vivliostyle.org/downloads/vivliostyle-latest.zip>
+
+## Canary release (equivalent to `master`)
+
+- **viewer:** <https://vivliostyle.now.sh/>
+
+## Release history
 
 {% for release in site.data.releases reversed %}
 ### {{ release.version }}
@@ -12,13 +19,6 @@ for latest release, go to [vivliostyle.org](https://vivliostyle.org/download/).
 
 {% endfor %}
 
-## Other release channels
+## Links
 
-### Stable release
-
-- **viewer:** <https://vivliostyle.org/viewer/>
-- **archive:** <https://vivliostyle.org/downloads/vivliostyle-latest.zip>
-
-### Canary release
-
-- **viewer:** <https://vivliostyle.now.sh/>
+- [vivliostyle.org](https://vivliostyle.org/download/)
