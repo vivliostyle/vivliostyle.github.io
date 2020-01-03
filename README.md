@@ -12,10 +12,15 @@
 ## Release history
 
 {% for release in site.data.releases reversed %}
-### {{ release.version }}
+### [{{ release.version }}](https://github.com/vivliostyle/vivliostyle/releases/tag/{{ release.tag }})
 
+{% if release.tag < "2020" %}
+- **viewer:** <https://vivliostyle.github.io/viewer/{{ release.tag }}/vivliostyle-viewer.html>
+- **archive:** <https://github.com/vivliostyle/vivliostyle/releases/download/{{ release.tag }}/vivliostyle-js-{{ release.version }}.zip>
+{% else %}
 - **viewer:** <https://vivliostyle.github.io/viewer/{{ release.tag }}/>
 - **archive:** <https://github.com/vivliostyle/vivliostyle/releases/download/{{ release.tag }}/vivliostyle-{{ release.version }}.zip>
+{% endif %}
 
 {% endfor %}
 
