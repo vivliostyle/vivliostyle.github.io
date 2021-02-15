@@ -1,4 +1,4 @@
-# Vivliostyle Releases
+# Vivliostyle.js Releases
 
 ## Stable release
 
