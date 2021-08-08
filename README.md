@@ -7,8 +7,8 @@
 
 ## Canary release (equivalent to `master`)
 
-- **viewer:** <https://vivliostyle.now.sh/>
-- **archive:** <https://vivliostyle.now.sh/vivliostyle-viewer-canary.zip>
+- **viewer:** <https://vivliostyle.vercel.app/>
+- **archive:** <https://vivliostyle.vercel.app/vivliostyle-viewer-canary.zip>
 
 ## Release history
 
