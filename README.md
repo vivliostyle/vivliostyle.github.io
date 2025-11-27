@@ -18,7 +18,7 @@
 {% if release.tag < "2020" %}
 - **viewer:** <https://vivliostyle.github.io/viewer/{{ release.tag }}/vivliostyle-viewer.html>
 - **archive:** <https://github.com/vivliostyle/vivliostyle.js/releases/download/{{ release.tag }}/vivliostyle-js-{{ release.version }}.zip>
-{% elif release.tag >= "v2.21.0" and release.tag <= "v2.30.2" %}
+{% elsif release.tag >= "v2.21.0" and release.tag <= "v2.30.2" %}
 - **viewer:** <https://vivliostyle.github.io/viewer/{{ release.tag }}/#pixelRatio=0>
 - **archive:** <https://github.com/vivliostyle/vivliostyle.js/releases/download/{{ release.tag }}/vivliostyle-viewer-{{ release.version }}.zip>
 {% else %}
